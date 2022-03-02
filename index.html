@@ -7,6 +7,7 @@
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'>
  <link rel="stylesheet" href="./styles/style.css">
+ <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Handlee">
 
 </head>
 <body>
@@ -27,9 +28,7 @@
 
         <div class="navbar" id="navbarNav">
           <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Home</a>
-            </li>
+        
             <li class="nav-item">
               <a class="nav-link"  tabindex="-1" href="https://github.com/errorless-stone/cumbie-foxtrot" target="code">Source Code</a>
             </li>
@@ -47,6 +46,7 @@
 
 
           </ul>
+        </div>
       </div>
     </nav>
   </div>
@@ -54,20 +54,31 @@
     
   
   <div class=row>
-    <div class=col-sm-6>
-      <!-- Interests card -->
-      <div class=card id="interest-card">
-        <h4 class=card-title>Hobbies/Interests</h4>
-        <ul id="interests-list"></ul>
+    <div class="col-sm-6 col-xl-5" id="interests">
+      <!-- Selfie card -->
+      <div class=card id="img-card">
+
+        <img class="img-fluid" src="imgs/me-photo.jpg" alt="uhhhhhhhh">
+        <p class="overlay-text" id="me-img-caption">Me after a hard days work (dripped out)</p>
+
       </div>
+
     </div>
 
-    <div class=col-sm-6>
+    <div class="col-sm-6 col-xl-7">
       <!-- Dev Profile card -->
       <div class=card id="dev-card"> 
-        <h4 class=card-title>About me</h4>
+        <h4 class=card-title>Dev Profile</h4>
         <h6>Development skills</h6>
         <ul id="skills-list"></ul>
+
+        <h6>Employment</h6>
+        <ul id="employment-list">
+          <dt class="employer">Walmart</dt>
+            <dd class="job-title">Garden Center/Seasonal Stocking Associate -- 2021-current</dd>
+          <dt class="employer">Arby's</dt>
+            <dd class="job-title">Crew Member -- 2017-2021</dd>
+        </ul>
 
         <h6>Web-Presence</h6>
         <ul id="presence-list">
@@ -78,17 +89,22 @@
         <h6>Previous Projects</h6>
         <ul id="projects-list">
 
-          <dt class="project">Doge Game: <a href= "https://github.com/errorless-stone/edgy-bourbon"target="game-repo">Repo</a> |
+          <dt class="project">Doge Game: <a href= "https://github.com/errorless-stone/edgy-bourbon" target="game-repo">Repo</a> |
           <a href="https://errorless-stone.github.io/edgy-bourbon/" target="game-play">Play here</a></dt>
 
-          <dt class="project">Name Game: <a href= "https://github.com/errorless-stone/cumbie-delta"target="game-repo">Repo</a> |
-            <a href="https://errorless-stone.github.io/cumbie-delta/"target="game-play">Play here</a></dt>
+          <dt class="project">Name Game: <a href= "https://github.com/errorless-stone/cumbie-delta" target="game-repo">Repo</a> |
+            <a href="https://errorless-stone.github.io/cumbie-delta/" target="game-play">Play here</a></dt>
 
-          <dt class="project">Games Site: <a href= "https://github.com/errorless-stone/cumbie-echo"target="game-repo">Repo</a> |
-            <a href="https://errorless-stone.github.io/cumbie-echo/"target="game-play">Play here</a></dt>
+          <dt class="project">Games Site: <a href= "https://github.com/errorless-stone/cumbie-echo" target="game-repo">Repo</a> |
+            <a href="https://errorless-stone.github.io/cumbie-echo/" target="game-play">Play here</a></dt>
   
 
         </ul>
+        
+        <h6>Hobbies/Interests</h6>
+        <ul id="interests-list"></ul>
+
+
       </div>
     </div>
   </div>

@@ -10,14 +10,45 @@ body {
 
 h6{
   margin-left:6mm;
+  color:#ffff
 }
+
+h4{color:#ffff;}
 
 #dev-card{
+  margin-top:8mm;
   padding-right:4mm;
   padding-top:4mm;
+  background-color:#2c2f33;
 }
 
-#interest-card{
-  padding-right:4mm;
-  padding-top:4mm;
+body{
+  background-color:#7289da ;
+}
+
+dt{
+  color:#99aab5;
+}
+
+dd{
+  color:#99aab5;
+  padding-left: 2mm;
+}
+
+a{
+  color:#ffff;
+}
+
+
+#img-card{
+  margin-top:8mm;
+  background-color:#2c2f33;
+}
+
+#me-img-caption{
+  position:absolute;
+  color:#ffff;
+  padding-left:2mm;
+  font-family: Handlee;
+  font-size:x-large;
 }
